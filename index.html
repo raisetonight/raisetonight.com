@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RaiseTonight.com - Fund Your Dreams, Tonight!</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.28.0/feather.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            background: linear-gradient(to bottom right, #8b5cf6, #3b82f6);
+            color: white;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            padding: 2rem 0;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .subtitle {
+            font-size: 1.25rem;
+        }
+        main {
+            padding: 2rem 0;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+        .feature {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+        }
+        .feature h2 {
+            display: flex;
+            align-items: center;
+            font-size: 1.25rem;
+            margin-bottom: 1rem;
+        }
+        .feature h2 i {
+            margin-right: 0.5rem;
+        }
+        .cta {
+            text-align: center;
+            margin-top: 2rem;
+        }
+        .cta-button {
+            background-color: #fbbf24;
+            color: #1f2937;
+            font-size: 1.25rem;
+            font-weight: bold;
+            padding: 0.75rem 1.5rem;
+            border: none;
+            border-radius: 9999px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .cta-button:hover {
+            background-color: #fcd34d;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>RaiseTonight.com</h1>
+        <p class="subtitle">Fund Your Dreams, Tonight!</p>
+    </header>
+    
+    <main class="container">
+        <div class="features">
+            <div class="feature">
+                <h2><i data-feather="sparkles"></i> Instant Funding</h2>
+                <p>Get the capital you need for your startup in just one night. No waiting, no hassle.</p>
+            </div>
+            <div class="feature">
+                <h2><i data-feather="dollar-sign"></i> Competitive Rates</h2>
+                <p>Our innovative platform connects you with investors offering the best rates in the market.</p>
+            </div>
+            <div class="feature">
+                <h2><i data-feather="rocket"></i> Launch Faster</h2>
+                <p>Don't let funding slow you down. Launch your startup at lightning speed with RaiseTonight.</p>
+            </div>
+            <div class="feature">
+                <h2><i data-feather="clock"></i> 24/7 Support</h2>
+                <p>Our team is always available to help you through the fundraising process, any time of day or night.</p>
+            </div>
+        </div>
+        
+        <div class="cta">
+            <button class="cta-button">Start Raising Now!</button>
+        </div>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 RaiseTonight.com. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            feather.replace();
+        });
+    </script>
+</body>
+</html>
